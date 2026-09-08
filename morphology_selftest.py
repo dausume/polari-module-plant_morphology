@@ -3,7 +3,7 @@ Selftest — morph-1: 3D stand-in organ geometry + root spread +
 confinement/dwarfing assessment.
 
 Run from polari-framework/:
-    python3 -m plant_morphology.selftest_morphology
+    python3 -m plant_morphology.morphology_selftest
 
 Covers: shape-primitive volumes (lamina/cylinder/cone/sphere/ellipsoid);
 per-organ + canopy geometry; root envelope + dense root ball; a small
@@ -17,7 +17,7 @@ a root-prune cadence to stay indefinite; honest refusals.
 import math
 from types import SimpleNamespace
 
-from plant_morphology.morphology_analysis import (
+from plant_morphology.custom.morphology_analysis import (
     confinement_assessment, organ_geometry, primitive_volume_mm3,
     root_spread,
 )

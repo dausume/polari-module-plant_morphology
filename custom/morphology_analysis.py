@@ -1,6 +1,6 @@
 """
 @cross-cutting
-@module plant_morphology.morphology_analysis
+@module plant_morphology.custom.morphology_analysis
 @tags @xc:bindings, @xc:render-3d
 
 Mock/estimate 3D geometry from the organ + root stand-in models. Duck-
